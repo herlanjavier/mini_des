@@ -1,0 +1,57 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+<head> 
+    <meta charset="UTF-8"> 
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+    <link rel="stylesheet" type="text/css" href="style.css"> 
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600&family=Indie+Flower&family=Montserrat:wght@100;300&family=Open+Sans:ital,wght@1,300&family=Roboto+Mono:wght@100&display=swap" rel="stylesheet"> 
+    <meta name="viewport" content="width=>, initial-scale=1.0"> 
+    <title>Document</title> 
+ 
+</head> 
+<body> 
+    <form> 
+        <h1 class="titulo">PESO IDEAL</h1> 
+        <hr> 
+        <div class="container"> 
+            <div class="row"> 
+                <div class="col-25"> 
+                    <label>Cual es su estatura</label> 
+                </div> 
+                <div class="col-75"> 
+                    <input type="NUMBER" maxlength="20" size="20" required placeholder="estatura(cm)" min="100" max="300"> 
+                </div>     
+            </div>                
+                
+ 
+          
+        <label>Edad</label> 
+        <select name="edad"> 
+            <option value="1">10-20 YEARS</option> 
+            <option value="2">20-30 YEARS</option> 
+            <option value="3">30-40 YEARS</option> 
+            <option value="4">40-50 YEARS</option> 
+            <option value="3">+50 YEARS</option> 
+        </select>  
+        <br><br> 
+        
+        <label>Genero</label><br> 
+          <input type="radio" name="gen"> 
+          <label >MASCULINO</label><br> 
+          <input type="radio" name="gen"> 
+          <label >FEMENINO</label><br> 
+           
+        <br><br> 
+        <label>CIRCUNFERENCIA DE LA MU;ECA</label> 
+        <input type="NUMBER" maxlength="30" size="30" required  min="10" max="25"> 
+        <br><br> 
+         
+        <input type="submit" value="Calcular" > 
+        <input type="reset" value="Limpiar"> 
+         
+         
+ 
+    </div>   
+    </form> 
+</body> 
+</html>

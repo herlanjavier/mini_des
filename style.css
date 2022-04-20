@@ -1,0 +1,66 @@
+input[type="NUMBER"], 
+select, 
+textarea { 
+  width: 100%; 
+  padding: 10px; 
+  border: 2px solid rgb(107, 70, 241); 
+  border-radius: 4px; 
+  resize: vertical; 
+  background-color: rgb(93, 199, 248); 
+} 
+ 
+label { 
+  padding: 12px 12px 12px 0; 
+  display: inline-block; 
+  font-family: "Indie Flower", cursive; 
+  color: rgb(79, 53, 150); 
+} 
+ 
+input[type="submit"], 
+input[type="reset"] { 
+  background-color: #7a6df1; 
+  color: white; 
+  padding: 12px 20px; 
+  border: 1px solid black; 
+  border-radius: 4px; 
+  cursor: pointer; 
+  float: right; 
+} 
+.titulo{ 
+  text-align: center; 
+  color: #221880; 
+} 
+input[type="submit"]:hover, 
+input[type="reset"]:hover { 
+  background-color: #4532ee; 
+} 
+ 
+.col-25 { 
+  float: left; 
+  width: 25%; 
+  margin-top: 6px; 
+} 
+ 
+.col-75 { 
+  float: left; 
+  width: 75%; 
+  margin-top: 6px; 
+} 
+ 
+ 
+/* .row:after { 
+  content: ""; 
+  display: table; 
+  clear: both; 
+} */ 
+ 
+ 
+@media screen and (max-width: 600px) { 
+  .col-25, 
+  .col-75, 
+  input[type="submit"], 
+  input[type="reset"] { 
+    width: 100%; 
+    margin-top: 0; 
+  } 
+}
